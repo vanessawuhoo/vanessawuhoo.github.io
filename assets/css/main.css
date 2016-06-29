@@ -1097,8 +1097,8 @@ header.nav.hide-menu {
 
 .portfolio-wrap .modal {
     padding: 0;
-    max-height : 75%;
-    max-width: 75%;
+    max-height : 85%;
+    width: 800px;
 }
 
 .modal .model-img {
