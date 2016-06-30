@@ -650,6 +650,7 @@ $(window).load(function(){
 
 		var portfolioModal = $('#portfolioModal'),
 			portImgArea = portfolioModal.find('.model-img'),
+			portVidArea = portfolioModal.find('.model-vid'),
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portLink = portfolioModal.find('.modal-footer .modal-action');
@@ -664,12 +665,16 @@ $(window).load(function(){
 				out_duration: 400,
 				ready: function() {
 					var imgSrc = $this.data('image-source'),
+					// var vidSrc = $this.data('video-source'),s
 					title = $this.data('title'),
 					content = $this.data('content'),
 					demoLink = $this.data('demo-link');
 
 
-					if ( imgSrc ) {
+
+					if ( imgSrc.split('-')[0].valueOf() == "VID" ) {
+						portImgArea.html('<iframe width="780" height="405" src="https://www.youtube.com/embed/'+ imgSrc.split('v=')[1] +'" frameborder="0" allowfullscreen></iframe>')
+					} else {
 						portImgArea.html('<img src="'+imgSrc+'" alt="Portfolio Image" />');
 					};
 
