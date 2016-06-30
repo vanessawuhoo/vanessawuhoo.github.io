@@ -781,6 +781,10 @@ header.nav.hide-menu {
     line-height: 15px;
 }
 
+.skill-right {
+  margin-bottom: 75px;
+}
+
 .skill-count {
     font-size: 15px;
 }
@@ -834,6 +838,7 @@ header.nav.hide-menu {
     position: absolute;
     right:1.4%;
     top:55.8%;
+    margin-bottom: 75px;
 }
 .btn-wrapp a {
     display: block;
