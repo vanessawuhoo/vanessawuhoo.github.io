@@ -145,7 +145,7 @@
             <div class="col-sm-12 col-md-4">
               <div class="person-about">
                 <h3 class="about-subtitle">My Story</h3>
-                <p>I'm a senior from Duke University studying Computer Science with an interest in front-end and mobile development. I believe in the importance of actively working to discover pain points and ways to improve user experience and ultimately, I am passionate about working on products that are simultaneously clean, functional, and beautiful. Outside of work, I enjoy cross-stitching, dancing, singing, books, martial arts, and food of all kinds.</p>
+                <p>I'm a senior from Duke University studying Computer Science with an interest in front-end and mobile development. I believe in the importance of actively working to discover pain points and ways to improve user experience. Ultimately, I am passionate about working on products that are simultaneously clean, functional, and beautiful. Outside of work, I enjoy cross-stitching, dancing, singing, books, martial arts, and food of all kinds.</p>
                 <a target="_blank" href="https://drive.google.com/file/d/0B8afWUHHTLKVRkhub0s2Vmhhdmc/view?usp=sharing" class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a>
               </div>
             </div>
@@ -165,7 +165,7 @@
                 <h5><span>Age :</span> 21</h5>
                 <h5><span>Phone :</span> (919) 793-4373</h5>
                 <h5><span>School :</span> Duke University</h5>
-                <h5><span>Major :</span> Computer Science</h5>
+                <!-- <h5><span>Major :</span> Computer Science</h5> -->
                 <!-- <h5><span>Email :</span> vanessa.wuhoo@gmail.com</h5> -->
                 <h5><span>Address :</span> Cary, NC</h5>
               </div>
@@ -174,16 +174,16 @@
                 <ul>
 
                   <li>
-                    <a href="https://www.facebook.com/vwuhoo" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/vwuhoo" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/vanessa-wu-9a397b105" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/vanessa-wu-9a397b105" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
                   </li>
                   <li>
-                    <a href="https://github.com/vanessawuhoo" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://github.com/vanessawuhoo" class="btn-floating waves-effect waves-light white"><i class="fa fa-github"></i></a>
                    </li>
                    <li>
-                     <a href="mailto:vanessawuhoo@gmail.com" class="btn-floating waves-effect waves-light white"><i class="fa fa-pencil"></i></a>
+                     <a target="_blank" href="mailto:vanessawuhoo@gmail.com" class="btn-floating waves-effect waves-light white"><i class="fa fa-pencil"></i></a>
                    </li>
                   <!-- <li>
                     <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
@@ -212,7 +212,7 @@
                   <div class="clearfix section-head experience-text">
                     <div class="col-sm-12">
                       <h2 class="title">Experience</h2>
-                      <p class="regular-text">While I love dabbling in personal projects, here is some of the more formal work I've done in the past. My professional interests are geared towards software development, but ultimately I love the intersection of that with art and design.</p>
+                      <p class="regular-text">While I love dabbling in personal projects and graphic design, here is some of my more formal work. My professional interests are geared towards software development, but my passions lie in the intersection of the field with art and design.</p>
                     </div>
                   </div>
                   <div class="col-lg-12">
@@ -355,7 +355,7 @@
               <div class="col-sm-12 col-md-3">
                 <div class="skill-left">
                   <h2 class="title">Skills</h2>
-                  <p class="regular-text">These are just some of the things I've picked up over the years, both formally and on my own. I am always interested in discovering new ways to create.</p>
+                  <p class="regular-text">This is a non-exhaustive list of some of the things I've picked up over the years. I am always interested in discovering new and interesting ways to create.</p>
                 </div>
               </div>
 
@@ -604,6 +604,10 @@
                   </li>
                   <li><a href="#" data-target=".ad">Advertising</a>
                   </li>
+                  <li><a href="#" data-target=".choreo">Choreography</a>
+                  </li>
+                  <li><a href="#" data-target=".video">Videos</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -613,13 +617,14 @@
       </div>
       <div id="portfolioModal" class="modal white">
         <div class="model-img"></div>
+        <div class="model-vid"></div>
         <div class="modal-content">
           <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
           <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
         </div>
 
         <div class="modal-footer">
-          <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a>
+          <!-- <a href="#" target="_blank" class="waves-effect btn-flat brand-text modal-action">Live Demo</a> -->
           <a href="#" class="waves-effect btn-flat brand-text modal-action modal-close">cancel</a>
         </div>
       </div>
@@ -631,14 +636,16 @@
               <ul class="clearfix protfolio-item" id="protfolio-msnry">
 
 
-                <!-- 1 Single Portfolio-->
-                <li class="single-port-item design ad">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/26fpsmhkgl7jmik/1.PNG?dl=1" data-title="Duke Chinese Dance Auditions Flyer" data-content="As a member of the Duke Chinese Dance publicity committee, I was in charge of heading the design of our flyer to publicize for auditions " data-demo-link="#">
+                <!-- Single Portfolio-->
+                <li class="single-port-item programming">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/8.gif"
+                  data-title="VOOGASALAD"
+                  data-content="VOOGASALAD, which stands for &quot;Video Object Oriented Game Architecture Salad&quot;, was the final project for my CS308 class. I worked on a team of 9 to develop a program that allowed a user to create a turret defense game from scratch and then run and play the game. I did full stack development, contributing both to the front end rendering of game elements and to the game engine which could run the games from XML files. The final product included capabilities such as saving and loading game states and importing custom images. Coded with Java and JavaFX." data-demo-link="#">
                     <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/czqtk843t0w0b90/1.png?dl=1" alt="portfolio">
+                      <img src="https://www.dropbox.com/s/zmzk5x2hd776u8m/8.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
-                          <h2 class="p-title">DCD Auditions Flyer</h2>
+                          <h2 class="p-title">VOOGASALAD</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -647,25 +654,12 @@
                 </li>
                 <!--/ single portfolio -->
 
-                <!-- Single Portfolio-->
-                <li class="single-port-item programming">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/gipuyrcud2oahcl/2.gif?dl=1" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/lgw6o4qsv6t2kvh/2.png?dl=1" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Cell Society</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
+
+
 
                 <!-- Single Portfolio-->
                 <li class="single-port-item design apparel">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/gu5vtgzuzkkvp56/3.png?dl=1" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/3.png" data-title="Duke Chinese Dance Crewnecks" data-content="As a member of the 2015 Duke Chinese Dance publicity committee, one of my tasks was to head the process of obtaining apparel. This involved everything from designing and ordering to distributing to members on campus and alumni who were halfway across the country. Our group's mission is to meld traditional Chinese dance with more modern styles in order to create something beautiful and unique, which can be a difficult line to toe. As our branding in the past had leaned heavily towards more stereotypically Chinese, in my design I wanted to bring a more sleek and modern aspect to our organization. Because of my dedication to hearing out all the opinions of my teammates and delivering a product everyone would like, I went through many iterations of designs and ultimately came up with two color schemes equally popular among my teammates." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/ixbayixzrffuc0z/3.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -679,9 +673,25 @@
                 </li>
                 <!--/ single portfolio -->
 
+                <!-- Single Portfolio-->
+                <li class="single-port-item ad design">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/5.png" data-title="Duke Chinese Dance Dimensions Promotions" data-content="Last spring I assisted with the process of adverising for DCD's 10th annual showcase, Dimensions. Our theme was meant to highlight the many different personalities and backgrounds that our members brought to our organization and how these differences make our group what it is. I assisted with the process of taking photographs of our team members for a social media campaign and headed the involved process of editing the photographs to produce 40 images for use on social media and around campus." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/2dpek1rh7apl623/5.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Dimensions Showcase Promo</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
                 <!-- 4 Single Portfolio-->
                 <li class="single-port-item ad design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/uwk4zbra5fg4pjd/4.jpg?dl=1" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/4.jpg" data-title="Duke Chinese Dance Azure Promotions" data-content="As a member of the 2014 DCD publicity committee I helped create advertising materials for our annual showcase, Azure. The theme was a reference to the Azure Dragon, a creature from Chinese mythology that could control rain and bring prosperity to the people. I assisted with the process of taking upwards of 40 unique photographs of our team members as part of a social media campaign to advertise for our showcase. I also helped come up with designs for and edit posters that were displayed prominently on campus." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/6s4140wh5kc8li4/4.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -697,48 +707,14 @@
 
                 <!-- Single Portfolio-->
                 <li class="single-port-item ad design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/uzeiotjrb44wtn6/5.png?dl=1" data-title="Your awesome portfolio title" data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/14.png"
+                  data-title="Fusion Rush Calendar"
+                  data-content="As part of the rush committee for my student living group, Fusion, I headed the design of calendars to advertise for both the 2015 and 2016 school years. Fusion is an Asian Cultural Interest group, so I used elements of Asian pop culture in my designs to attract attention from our target audience and create fun, colorful calendars that we used on social media to advertise for our rush seasons." data-demo-link="#">
                     <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/2dpek1rh7apl623/5.png?dl=1" alt="portfolio">
+                      <img src="https://www.dropbox.com/s/73pv8c99pswyd0t/14.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
-                          <h2 class="p-title">Dimensions Showcase Promo</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item ad design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/e2wlezx2edewcpl/6.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/rmp8ronragy8lwi/6.png?dl=1" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Dimensions Showcase Flyers</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- 7 Single Portfolio-->
-                <li class="single-port-item apparel design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/rbihfpx7h6ryjmu/7.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/dhg9xv4g0t7rjoq/7.png?dl=1" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Temptasians T-Shirt</h2>
+                          <h2 class="p-title">Fusion Rush Calendar</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -749,14 +725,30 @@
 
                 <!-- Single Portfolio-->
                 <li class="single-port-item programming">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/hw6g6dop979xhps/8.gif?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/2.gif" data-title="Cell Society" data-content="Cell Society is a cellular automata simulator that I collaborated with 2 other people to develop for Duke's CS380 class. The program is able to take in XML files to set up a board's size and initial cell properties. When simulation is run the cells update themselves based on rules of the given simulation and the cells surrounding it. We also incorporated the ability to change the shape of each cell and other properties, thereby changing the outcome of the simulation. Developed using Java and JavaFX." data-demo-link="#">
                     <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/zmzk5x2hd776u8m/8.png?dl=1" alt="portfolio">
+                      <img src="https://www.dropbox.com/s/lgw6o4qsv6t2kvh/2.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
-                          <h2 class="p-title">VOOGASALAD</h2>
+                          <h2 class="p-title">Cell Society</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+
+                <li class="single-port-item choreo video">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="VID-https://www.youtube.com/watch?v=dhdUgGs-tJc"
+                  data-title="Convergence"
+                  data-content="As a junior I was given the opportunity to step into a larger choreographic role in my dance team. In collaboration with two of my teammates, I choreographed a 30 person routine that was inspired by the TV series Avatar the Last Airbender and the 4 styles of traditional Chinese kungfu represented in the series. This routine was performed both at the Duke Lunar New Year show and at our annual showcase." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/p3vwoil65ufievq/21.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Convergence</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -767,9 +759,9 @@
 
                 <!-- Single Portfolio-->
                 <li class="single-port-item design apparel">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/er11i7axw139bie/9.jpg?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/9.jpg"
+                  data-title="Street Medicine Tank Tops"
+                  data-content="As the 2015 publicity chair for the then new hip-hop group Street Medicine, I was in charge of designing the group's first piece of apparel. Because the group was so young and had not yet established much of a campus presence, I wanted to create something bright and eye-catching while also embracing the group's urban dance influences. To that end, I designed these tank tops which were frequently used that semester as part of our outfits in performances." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/vglguv7t0ux29vx/9.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -785,9 +777,9 @@
 
                 <!-- 10 Single Portfolio-->
                 <li class="single-port-item design apparel">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/b7gjwn2olj8av2c/10.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/10.png"
+                  data-title="Duke Engage Zhuhai T-Shirt"
+                  data-content="I went to China as part of the Duke Engage Zhuhai 2015 program, and during our time there I developed very strong bonds with my 15 other team members. As a way to commemorate our time together I designed an image featuring the names of my teammates arranged in the shape of the Pearl Lady, a famous Zhuhai landmark that we visited on our first day in the city. In my design the Pearl Lady stands on a foundation composed of the names of our program leader and the site coordinators who made our entire experience possible." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/yole3ta3ofe9eo2/10.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -801,47 +793,11 @@
                 </li>
                 <!--/ single portfolio -->
 
-                <!-- Single Portfolio-->
-                <li class="single-port-item apparel design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/t0td1p1ximmpqv7/11.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/h2cw0l5b1opuaav/11.png?dl=1" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">Fusion Jacket</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
-                <!-- Single Portfolio-->
-                <li class="single-port-item programming">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/heixy12q1chkfh6/12.gif?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
-                    <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/zwlpfsw6ba7dzdy/12.png?dl=1" alt="portfolio">
-                      <div class="protfolio-content waves-effect waves-block waves-light">
-                        <div class="protfolio-content__inner">
-                          <h2 class="p-title">SLOGO</h2>
-                        </div>
-                      </div>
-                      <div class="p-overlay"></div>
-                    </div>
-                  </a>
-                </li>
-                <!--/ single portfolio -->
-
                 <!-- 13 Single Portfolio-->
                 <li class="single-port-item design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/c8eez64m05yrglb/13.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/13.png"
+                  data-title="DCD Logo Redesign"
+                  data-content="For a while I have felt that my dance group has been moving slowly away from performing strictly Chinese dance and progressively incorporated more and more Western styles of dance. While I am not opposed to this change I felt that our old logo no longer fully encompassed our identity as an organization. As the new publicity chair for the 2016-17 school year I was interested in rebranding our team  with a logo that better represented us as we are now- unique and modern, but still paying homage to our roots." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/2nqehrdk38e0esg/13.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -855,16 +811,17 @@
                 </li>
                 <!--/ single portfolio -->
 
+
                 <!-- Single Portfolio-->
-                <li class="single-port-item ad design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/s5n8c583jzme5oy/14.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                <li class="single-port-item programming">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/12.gif"
+                  data-title="SLOGO"
+                  data-content="SLOGO is an IDE I developed for my CS308 class, which was done in a team of 4. The program was able to take in text input in a Simple Logo language, parse the information, and then display an animation of turtles drawing the output. I worked primarily on the front end of the program, as well as doing some back end work parsing commands sent through the interface. Coded in Java with JavaFX." data-demo-link="#">
                     <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/73pv8c99pswyd0t/14.png?dl=1" alt="portfolio">
+                      <img src="https://www.dropbox.com/s/zwlpfsw6ba7dzdy/12.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
-                          <h2 class="p-title">Fusion Rush Calendar</h2>
+                          <h2 class="p-title">SLOGO</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -873,16 +830,17 @@
                 </li>
                 <!--/ single portfolio -->
 
+
                 <!-- Single Portfolio-->
-                <li class="single-port-item apparel design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/v3orbayhjsqesj5/15.jpg?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                <li class="single-port-item video">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="VID-https://www.youtube.com/watch?v=J_zNnl_Xo38"
+                  data-title="Duke Engage Zhuhai Vlog Series"
+                  data-content="Prior to my time in China for Duke Engage Zhuhai I made the decision to vlog the program, to both allow people to see what I'd done that summer and as a way for my teammates and I to look back when we missed our time there. When I arrived I made some stylistic decisions, such as deciding to film in short clips interspersed with some longer, traditional vlog-style introspection. By keeping the majority of the clips short I hoped to give people a lot of little glimpses into my daily life as well as emphasizing how quickly the program seemed to pass, with moments flitting by with every blink. My videos were featured on the Duke Engage program website and are still referenced on the Zhuhai program page. View the rest on my Youtube channel linked in my &quot;About Me&quot;" data-demo-link="#">
                     <div class="protfolio-image">
-                      <img src="https://www.dropbox.com/s/k7ywn44n9hhln55/15.png?dl=1" alt="portfolio">
+                      <img src="https://www.dropbox.com/s/uwvvk0skx3fo2m0/20.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
                         <div class="protfolio-content__inner">
-                          <h2 class="p-title">Zhuhai No. 9 Summer Camp Shirt</h2>
+                          <h2 class="p-title">Duke Engage Zhuhai Vlogs</h2>
                         </div>
                       </div>
                       <div class="p-overlay"></div>
@@ -893,9 +851,9 @@
 
                 <!-- 16 Single Portfolio-->
                 <li class="single-port-item programming">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/y80rx4wcw4x6h4f/16.gif?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/16.gif"
+                  data-title="League of 8-Bit"
+                  data-content="League of 8-Bit was the first program that I developed for my CS308 class, inspired by the popular MOBA League of Legends. The game incorporates a simple turn-based combat engine, which I built from scratch, and also incorporates some open world exploration. Coded with Java and JavaFX." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/oc3t52gafsn4mko/16.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -910,10 +868,65 @@
                 <!--/ single portfolio -->
 
                 <!-- Single Portfolio-->
+                <li class="single-port-item apparel design">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/15.jpg"
+                  data-title="Zhuhai No. 9 Summer Camp Shirt"
+                  data-content="At the end of the Duke Engage Zhuhai program our team of 16 was tasked with preparing a two day summer camp for about 150 middle school students split into 8 different teams to compete against each other. I designed this logo which was then printed on 8 different colored shirts to differentiate the teams from each other. The sailboat is a stylized version of the number 9 in Chinese and also the official logo of the No. 9 middle school. By intertwining that symbol with the well-known Duke logo, I hoped to represent the essence of our program and the partnership between my school and theirs." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/k7ywn44n9hhln55/15.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Zhuhai No. 9 Summer Camp Shirt</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <li class="single-port-item choreo video">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="VID-https://www.youtube.com/watch?v=yCeFhMnYgsg"
+                  data-title="Uprising"
+                  data-content="As a sophomore I had the opportunity to choreograph a martial arts themed dance for my group Duke Chinese Dance. Having studied wushu for 4 years, I integrated flashy broadswords and fighting style choreography into a fast paced routine. As my first time being a choreographer and directing a group, I had to quickly learn how to lead and bring my vision to life. This was performed at our annual showcase." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/11mqdher5izprhx/22.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Uprising</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item apparel design">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/11.png"
+                  data-title="Fusion Jacket"
+                  data-content="I submitted an apparel design for my Fusion, my student living group, in collaboration with another member of our group who furnished the design on the back. The symbol on a back is a combination of a traditional Chinese symbol and an &quot;F&quot; for our name, in reference to our status as the campus's Asian Cultural Interest SLG. On the front, I included a small nod to our SLG's logo, which is a stylized yin yang." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/h2cw0l5b1opuaav/11.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Fusion Jacket</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+
+                <!-- Single Portfolio-->
                 <li class="single-port-item ad design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/41dnmigudg104ji/17.jpg?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/17.jpg"
+                  data-title="Triangle Dance Workshop Poster"
+                  data-content="A big mission of my dance group Street Medicine is to provide  opportunities for those in the Triangle community who may not have much experience dancing to learn and to foster a stronger dance community in the area. The Triangle Dance Workshop was a collaboration between the 3 major universities in the area and prominent dance groups at each school, named in reference to the Research Triangle Park located in the vicinity of our schools. I designed this flyer to be displayed both around campus and on social media to increase awareness for the event." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/hvtc3y7s5rkd0ep/17.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -929,9 +942,9 @@
 
                 <!-- Single Portfolio-->
                 <li class="single-port-item apparel design">
-                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="https://www.dropbox.com/s/x371zrar2mtoqxo/19.png?dl=1"
-                  data-title="Your awesome portfolio title"
-                  data-content="A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior." data-demo-link="#">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/19.png"
+                  data-title="Yoyo Guy T-Shirt"
+                  data-content="One of my teammates during Duke Engage Zhuhai, Felix Kung, is known around my school for being extremely good at Chinese Yoyo and a regular performer at popular campus events. During our program we often joked that we were Felix's official fan club, which eventually turned into our team collectively ordering and wearing this shirt that I secretly designed to surprise him at a performance. As you can see, Felix approved." data-demo-link="#">
                     <div class="protfolio-image">
                       <img src="https://www.dropbox.com/s/o6td8w1ueem90e4/18.png?dl=1" alt="portfolio">
                       <div class="protfolio-content waves-effect waves-block waves-light">
@@ -945,8 +958,65 @@
                 </li>
                 <!--/ single portfolio -->
 
+
+                <!-- Single Portfolio-->
+                <li class="single-port-item ad design">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/6.png"
+                  data-title="DCD Dimensions Flyer"
+                  data-content="I designed four smaller flyers to help publicize for DCD's annual showcase, which we used to increase our presence on campus, featuring my favorite photos taken of our performances that year." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/rmp8ronragy8lwi/6.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Dimensions Showcase Flyers</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+
+
+                <!-- 1 Single Portfolio-->
+                <li class="single-port-item design ad">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/1.png" data-title="Duke Chinese Dance Auditions Flyer" data-content="Last year as a member of the DCD publicity committee I was tasked with heading the design for our audition flyers which were to be posted around campus and on social media to attract attention to our event. " data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/czqtk843t0w0b90/1.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">DCD Auditions Flyer</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
+                <!-- 7 Single Portfolio-->
+                <li class="single-port-item apparel design">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/7.png"
+                  data-title="Temptasians T-Shirt"
+                  data-content="As a favor for a friend, I was asked to design the t-shirt for the Temptatians, Duke's Asian Interest A Capella group. By working closely with their president and going back and forth with drafts of the final product, we ended up coming up with a simple design that included all of the members names and roles on the back, as well as a design on the front that encapsulated their love for music." data-demo-link="#">
+                    <div class="protfolio-image">
+                      <img src="https://www.dropbox.com/s/dhg9xv4g0t7rjoq/7.png?dl=1" alt="portfolio">
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Temptasians T-Shirt</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+
               </ul>
-              </div>
+              <!-- portfolio load more button-->
+              <!-- <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light brand-bg"><i class="mdi-content-add"></i></a> -->
+            </div>
           </div>
         </div>
       </div>
@@ -960,13 +1030,13 @@
           <div class="col-sm-12">
             <div class="clearfix footer-inner">
               <ul class="left social-icons">
-                <li><a href="https://www.facebook.com/vwuhoo" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                <li><a target="_blank" href="https://www.facebook.com/vwuhoo" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
                 </li>
-                <li><a href="https://www.linkedin.com/in/vanessa-wu-9a397b105" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                <li><a target="_blank" href="https://www.linkedin.com/in/vanessa-wu-9a397b105" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <!-- <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
                 </li> -->
-                <li><a href="https://github.com/vanessawuhoo" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
+                <li><a target="_blank" href="https://github.com/vanessawuhoo" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Github"><i class="fa fa-github"></i></a>
                 </li>
                 <!-- <li><a href="#" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Dribbble"><i class="fa fa-dribbble"></i></a>
                 </li>
